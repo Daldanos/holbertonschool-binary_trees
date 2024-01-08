@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /*
- * binary_tree_t - main function
+ * binary_tree_node - main function
  *
  * @parent: pointer
  * @value: value

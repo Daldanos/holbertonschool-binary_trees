@@ -3,7 +3,7 @@
  * binary_tree_is_perfect - function name
  * @tree: tree to check
  *
- * Return: 1 if its perfect, 0 if its not
+ * Return: 1 if perfect, 0 if its not
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {

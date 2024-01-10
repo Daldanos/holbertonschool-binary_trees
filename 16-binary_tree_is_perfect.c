@@ -7,11 +7,13 @@
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
+	int left_depth = 0;
+	int right_depth = 0;
+	int left_perfect = 1;
+	int right_perfect = 1;
+
 	if (tree == NULL)
 		return (1);
-
-	int left_depth = 0, right_depth = 0;
-	int left_perfect = 1, right_perfect = 1;
 
 	if (tree->left)
 	{
